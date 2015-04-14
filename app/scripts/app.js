@@ -25,12 +25,12 @@ angular
   function ($stateProvider, $urlRouterProvider, $provide) {
   
 		$stateProvider.state('org', {
-			templateUrl : '/app/views/default.html',
+			templateUrl : 'views/default.html',
 			controller : 'BaseCtrl',
 			abstract : true
 		  }).state('init', {
 				url: '',
-				templateUrl: '/app/views/main.html',
+				templateUrl: 'views/main.html',
 				controller: 'MainCtrl'
 		});
   
