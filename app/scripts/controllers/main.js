@@ -17,13 +17,13 @@ angular.module('doohee323.github.io')
 
 	$scope.sites = [
 		{
-			name : 'node.js, angular.js',
+			name : 'node.js, angular.js, socket.io, crawler',
 			image : 'images/6.png',
-			desc : 'Content Management System',
+			desc : 'CMS(Content Management System)',
 			url : 'http://52.0.156.206:3003'
 		},
 		{
-			name : 'Play!, angular.js',
+			name : 'Play!, angular.js, Websocket',
 			image : 'images/6.png',
 			desc : 'Chat room',
 			url : 'http://54.166.26.82:9000'
@@ -35,27 +35,27 @@ angular.module('doohee323.github.io')
 			url : 'https://github.com/doohee323/angularPattern'
 		},
 		{
-			name : 'apache TAJO, Play!',
+			name : 'apache TAJO, Play!, AWS CLI',
 			image : 'images/6.png',
 			desc : 'Cohort analysis',
 			url : 'https://github.com/doohee323/tz-tajo'
 		},
 		{
-			name : 'mysql, redis',
+			name : 'Spring f/w, mysql, redis',
 			image : 'images/5.png',
 			desc : 'SpringORM',
 			url : 'https://github.com/doohee323/SpringORM'
 		},
 		{
-			name : 'Spring framework',
+			name : 'Spring, Oracle, freemarker',
 			image : 'images/2.png',
 			desc : 'CodeGenerator',
 			url : 'https://github.com/doohee323/lhf.codeGenerator'
 		},
 		{
-			name : 'angular.js grid for CRUD',
+			name : 'angular.js, node.js, express, socket.io',
 			image : 'images/2.png',
-			desc : 'Grid UI',
+			desc : 'Grid for CRUD',
 			url : 'https://github.com/doohee323/ngExcel'
 		},
 		{
@@ -65,7 +65,7 @@ angular.module('doohee323.github.io')
 			url : 'https://github.com/doohee323/sheepsocket'
 		},
 		{
-			name : 'webview, angular.js',
+			name : 'Android, webview, angular.js',
 			image : 'images/3.png',
 			desc : 'Android Webapp',
 			url : 'https://github.com/doohee323/ConcordChurch'
