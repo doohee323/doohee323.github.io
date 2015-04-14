@@ -1,0 +1,80 @@
+<div class="row" style="margin-top: -15px">
+	<div>
+		<ol id="breadcrumb" class="breadcrumb" style="margin-bottom: 5px;" breadcrumb/>
+	</div>
+
+    <!-- Add your site or application content here -->
+    <div ui-view/>
+	
+</div>
+
+<modal-dialog show='bugReportShown' width='45%' height='360px'>
+	<div style='width:100%; height:100%'>
+		<br>
+		<form id="form" name="form" class="css-form">
+		  <div class="form-group">
+		    <div class="col-md-12">
+			    <div>
+            <label for="type">Type: </label>
+            <input ng-model="bugreport.type" type="hidden" class="form-control">
+						<select ng-model="bugreport.typeo" ng-options="type.name for type in types" ng-change="selectType()" class="form-control">
+				    </select>	            
+	        </div>
+			    <div>
+            <label for="type">Name: </label>
+						<input ng-model="bugreport.created_by" type="hidden" class="form-control" ng-disabled="true" placeholder="created_by" required>	            
+						<input ng-model="bugreport.created_nm" type="text" class="form-control" ng-disabled="true" placeholder="created_name" required>	            
+	        </div>
+			    <div>
+            <label for="title">Title: </label>
+            <input ng-model="bugreport.title" type="text" class="form-control" ng-disabled="editable" placeholder="title" style="width:150%" required>
+	        </div>
+			    <div>
+	          <label for="comments">Comments: </label>
+	          <textarea ng-model="bugreport.comments" type="text" rows="5" class="form-control" ng-disabled="editable" placeholder="comments" required>
+	          </textarea>
+	        </div>
+			  </div>
+		  
+	      <div style="float: right;margin-top: 30px;">
+		      <input ng-model="bugreport.id" type="hidden" class="form-control" ng-disabled="true" placeholder="id">
+		      <input ng-model="bugreport.menu_cd" type="hidden" class="form-control">
+					<select ng-model="bugreport.menu_cdo" ng-options="menu.display_nm for menu in menus" ng-change="selectMenuCd()" style="visibility:hidden">
+			    </select>
+		      <input ng-model="bugreport.status" type="hidden" class="form-control">
+					<select ng-model="bugreport.statuso" ng-options="status.name for status in statuses" ng-change="selectStatus()" style="visibility:hidden">
+			    </select>	            
+	       	<button ng-click="applyBugReport()" class="btn btn-primary" ng-disabled="form.$invalid">apply</button>
+	      </div>
+      </div>
+		</form>
+	</div>
+</modal-dialog>
+
+<modal-dialog show='loginShown' width='30%' height='220px'>
+	<div style='width:100%; height:100%'>
+		<br>
+    <form name="loginForm" ng-submit="applyLogin()">
+	    <div>
+	    	You need to log in again!
+	    </div>
+      <div class="form-group">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <i class="fa fa-envelope-o"></i>
+          </span>
+          <input id="login_email" type="text" name="email" class="form-control input-lg" placeholder="Email" ng-model="login.email" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <i class="fa fa-asterisk"></i>
+          </span>
+          <input id="login_password" type="password" name="password" class="form-control input-lg" placeholder="Password" ng-model="login.password" required>
+        </div>
+      </div>
+			<button type="submit" class="btn btn-primary btn-lg btn-block btn-shadow">Login</button>
+    </form>
+	</div>
+</modal-dialog>
