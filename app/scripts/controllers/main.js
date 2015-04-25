@@ -35,7 +35,7 @@ angular.module('doohee323.github.io')
 			url : 'https://github.com/doohee323/angularPattern'
 		},
 		{
-			name : 'apache TAJO, Play!, AWS CLI',
+			name : 'apache TAJO, Play!, AWS CLI(http://goo.gl/BE7niG)',
 			image : 'images/6.png',
 			desc : 'Cohort analysis',
 			url : 'https://github.com/doohee323/tz-tajo'
