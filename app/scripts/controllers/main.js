@@ -13,7 +13,7 @@ angular.module('doohee323.github.io')
   .controller('MainCtrl', function($scope, $http, $location, $state) {
 
 	$scope.mail_title = 'Dewey\'s personal apps!';
-	$scope.slogan = 'with java, javascript(node.js) and python.';
+	$scope.slogan = 'with java(Spring, Play!), javascript(Angular.js, Node.js) and python.';
 
 	$scope.sites = [
 		{
