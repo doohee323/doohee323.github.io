@@ -67,8 +67,14 @@ angular.module('doohee323.github.io')
 		{
 			name : 'Android, webview, angular.js',
 			image : 'images/3.png',
-			desc : 'Android Webapp',
+			desc : 'Android Webapp1(Crawler)',
 			url : 'https://github.com/doohee323/ConcordChurch'
+		},
+		{
+			name : 'Android, webview, angular.js',
+			image : 'images/3.png',
+			desc : 'Android Webapp2(News feeder)',
+			url : 'https://github.com/doohee323/newsFeeder'
 		}
 		];
 		
