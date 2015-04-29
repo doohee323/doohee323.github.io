@@ -17,6 +17,12 @@ angular.module('doohee323.github.io')
 
 	$scope.sites = [
 		{
+			name : 'Spring',
+			image : 'images/6.png',
+			desc : 'Common Assets for ERP',
+			url : 'http://goo.gl/O4Bp3o'
+		},
+		{
 			name : 'node.js, angular.js, socket.io, crawler',
 			image : 'images/6.png',
 			desc : 'CMS(Content Management System)',
@@ -33,12 +39,6 @@ angular.module('doohee323.github.io')
 			image : 'images/6.png',
 			desc : 'CMS(Content Management System)',
 			url : 'http://52.0.156.206:3003'
-		},
-		{
-			name : 'Spring',
-			image : 'images/6.png',
-			desc : 'Common Assets for ERP',
-			url : 'http://goo.gl/O4Bp3o'
 		},
 		{
 			name : 'apache TAJO, Play!, AWS CLI(http://goo.gl/BE7niG)',
