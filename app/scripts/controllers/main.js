@@ -12,33 +12,39 @@
 angular.module('doohee323.github.io')
   .controller('MainCtrl', function($scope, $http, $location, $state) {
 
-	$scope.mail_title = 'Dewey\'s personal apps!';
-	$scope.slogan = 'with java, javascript(node.js) and python.';
+	$scope.mail_title = 'Dewey\'s apps!';
+	$scope.slogan = 'with java(Spring, Play!), javascript(Angular.js, node.js), Golang, PHP, and python.';
 
 	$scope.sites = [
 		{
-			name : 'node.js, angular.js, socket.io, crawler',
+			name : 'PHP, node.js(socket.io), angular.js',
 			image : 'images/6.png',
-			desc : 'CMS(Content Management System)',
-			url : 'http://52.0.156.206:3003'
+			desc : 'Chat app (admin)',
+			url : 'http://admin.topzone.biz'
 		},
 		{
 			name : 'Play!, angular.js, Websocket',
 			image : 'images/6.png',
 			desc : 'Chat room',
-			url : 'http://54.166.26.82:9000'
+			url : 'http://chatroom.topzone.biz:9000'
 		},
 		{
-			name : 'angular.js, mysql, redis, mongoDB',
+			name : 'node.js, angular.js, socket.io, crawler',
 			image : 'images/6.png',
-			desc : 'UI pattern',
-			url : 'https://github.com/doohee323/angularPattern'
+			desc : 'CMS (Content Management)',
+			url : 'http://52.0.156.206:3003'
 		},
 		{
-			name : 'apache TAJO, Play!, AWS CLI',
+			name : 'apache TAJO, Play!, AWS CLI (http://goo.gl/BE7niG)',
 			image : 'images/6.png',
 			desc : 'Cohort analysis',
 			url : 'https://github.com/doohee323/tz-tajo'
+		},
+		{
+			name : 'Spring',
+			image : 'images/6.png',
+			desc : 'Common Assets for ERP',
+			url : 'http://goo.gl/O4Bp3o'
 		},
 		{
 			name : 'Spring f/w, mysql, redis',
@@ -47,28 +53,46 @@ angular.module('doohee323.github.io')
 			url : 'https://github.com/doohee323/SpringORM'
 		},
 		{
+			name : 'D3 chart',
+			image : 'images/6.png',
+			desc : 'Multi-line and geographic chart',
+			url : 'http://prototype-chart-d3.s3-website-us-west-1.amazonaws.com'
+		},
+		{
+			name : 'Golang',
+			image : 'images/6.png',
+			desc : 'Multiple request (HTTP) / shell command',
+			url : 'https://github.com/doohee323/tz_mcall'
+		},
+		{
 			name : 'Spring, Oracle, freemarker',
 			image : 'images/2.png',
 			desc : 'CodeGenerator',
 			url : 'https://github.com/doohee323/lhf.codeGenerator'
 		},
 		{
+			name : 'angular.js, mysql, redis, mongoDB',
+			image : 'images/6.png',
+			desc : 'UI pattern',
+			url : 'https://github.com/doohee323/angularPattern'
+		},
+		{
 			name : 'angular.js, node.js, express, socket.io',
 			image : 'images/2.png',
-			desc : 'Grid for CRUD',
+			desc : 'CRUD Grid',
 			url : 'https://github.com/doohee323/ngExcel'
 		},
 		{
-			name : 'node.js, socket.io',
-			image : 'images/2.png',
-			desc : 'Socket.io',
-			url : 'https://github.com/doohee323/sheepsocket'
+			name : 'android, webview, angular.js',
+			image : 'images/3.png',
+			desc : 'Web Crawler',
+			url : 'https://github.com/doohee323/ConcordChurch'
 		},
 		{
-			name : 'Android, webview, angular.js',
+			name : 'android, webview, angular.js',
 			image : 'images/3.png',
-			desc : 'Android Webapp',
-			url : 'https://github.com/doohee323/ConcordChurch'
+			desc : 'News feeder Webapp',
+			url : 'https://github.com/doohee323/newsFeeder'
 		}
 		];
 		
