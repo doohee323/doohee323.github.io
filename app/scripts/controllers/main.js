@@ -61,7 +61,7 @@ angular.module('doohee323.github.io')
 		{
 			name : 'Apache Storm',
 			image : 'images/6.png',
-			desc : 'kafka - storm - esper on vagrant',
+			desc : 'Kafka - Storm - Esper on vagrant',
 			url : 'https://github.com/doohee323/tz-kf-storm'
 		},
 		{
