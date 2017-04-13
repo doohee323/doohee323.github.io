@@ -48,6 +48,24 @@ angular.module('doohee323.github.io')
 			url : 'https://github.com/doohee323/tz_golang_graphite'
 		},
 		{
+			name : 'Simple Graphite',
+			image : 'images/6.png',
+			desc : 'Graphite server(statsd / grafana) on vagrant',
+			url : 'https://github.com/doohee323/tz-graphite.git'
+		},
+		{
+			name : 'Graphite relay server',
+			image : 'images/6.png',
+			desc : 'Graphite relay server with HAProxy',
+			url : 'https://github.com/doohee323/tz-graphite-extend.git'
+		},
+		{
+			name : 'Ganglia',
+			image : 'images/6.png',
+			desc : 'Ganglia on vagrant',
+			url : 'https://github.com/doohee323/tz-ganglia.git'
+		},
+		{
 			name : 'Apache TAJO, Play!, AWS CLI (http://goo.gl/BE7niG)',
 			image : 'images/6.png',
 			desc : 'Cohort analysis',
