@@ -60,6 +60,12 @@ angular.module('doohee323.github.io')
 			url : 'https://github.com/doohee323/tz-graphite-extend.git'
 		},
 		{
+			name : 'HAProxy',
+			image : 'images/6.png',
+			desc : 'HAProxy Load Balancing on vagrant',
+			url : 'https://github.com/doohee323/tz-haproxy'
+		},
+		{
 			name : 'Ganglia',
 			image : 'images/6.png',
 			desc : 'Ganglia on vagrant',
