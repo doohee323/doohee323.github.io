@@ -66,6 +66,12 @@ angular.module('doohee323.github.io')
 			url : 'https://github.com/doohee323/tz-haproxy'
 		},
 		{
+			name : 'Nagios',
+			image : 'images/6.png',
+			desc : 'Nagios on vagrant',
+			url : 'https://github.com/doohee323/tz-nagios.git'
+		},
+		{
 			name : 'Ganglia',
 			image : 'images/6.png',
 			desc : 'Ganglia on vagrant',
