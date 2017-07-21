@@ -108,9 +108,9 @@ angular.module('doohee323.github.io')
 			url : 'https://github.com/doohee323/wiki-vagrant'
 		},
 		{
-			name : 'wordpress/mysql/nginx',
+			name : 'Wordpress/mysql/nginx',
 			image : 'images/6.png',
-			desc : 'wordpress on vagrant',
+			desc : 'Wordpress on vagrant',
 			url : 'https://github.com/doohee323/wordpress-vagrant'
 		},
 		];
