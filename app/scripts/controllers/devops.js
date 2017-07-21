@@ -101,6 +101,18 @@ angular.module('doohee323.github.io')
 			desc : 'Basic Development Environment',
 			url : 'https://github.com/doohee323/tz-dev-env'
 		},
+		{
+			name : 'wiki/mysql/nginx',
+			image : 'images/6.png',
+			desc : 'Media wiki on vagrant',
+			url : 'https://github.com/doohee323/wiki-vagrant'
+		},
+		{
+			name : 'wordpress/mysql/nginx',
+			image : 'images/6.png',
+			desc : 'wordpress on vagrant',
+			url : 'https://github.com/doohee323/wordpress-vagrant'
+		},
 		];
 	
 		$state.go('devops');
