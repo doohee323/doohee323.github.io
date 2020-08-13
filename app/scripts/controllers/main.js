@@ -22,14 +22,14 @@ angular.module('doohee323.github.io')
 			image : 'images/6.png',
 			site : 'devops',
 			url : 'http://localhost:9001/#devops'
-		}
+		}.
 		{
 			desc : 'Senior Software Engineer',
 			name : 'Full-stack Software Engineer',
 			image : 'images/6.png',
 			site : 'se',
 			url : 'http://localhost:9001/#se'
-		},
+		}
 		];
 		
 		$state.go('init');
