@@ -17,19 +17,19 @@ angular.module('doohee323.github.io')
 
 	$scope.sites = [
 		{
+			desc : 'DevOps',
+			name : 'CI, CD on AWS, Kubernetest and on-promise',
+			image : 'images/6.png',
+			site : 'devops',
+			url : 'http://localhost:9001/#devops'
+		}
+		{
 			desc : 'Senior Software Engineer',
 			name : 'Full-stack Software Engineer',
 			image : 'images/6.png',
 			site : 'se',
 			url : 'http://localhost:9001/#se'
 		},
-		{
-			desc : 'DevOps',
-			name : 'CI, CD on AWS, on-promise',
-			image : 'images/6.png',
-			site : 'devops',
-			url : 'http://localhost:9001/#devops'
-		}
 		];
 		
 		$state.go('init');
