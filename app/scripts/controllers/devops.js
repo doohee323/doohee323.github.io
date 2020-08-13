@@ -21,7 +21,7 @@ angular.module('doohee323.github.io')
 			name : 'Kubernetes(CKA)',
 			image : 'images/6.png',
 			desc : 'Certified Kubernetes Administrator',
-			url : 'shorturl.at/gpOV8'
+			url : 'https://shorturl.at/gpOV8'
 		},
 		{
 			name : 'ELK(Elasticsearch/Logstash/Kibana)',
