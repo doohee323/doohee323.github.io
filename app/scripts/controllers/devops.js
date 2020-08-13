@@ -21,7 +21,7 @@ angular.module('doohee323.github.io')
 			name : 'Kubernetes(CKA)',
 			image : 'images/6.png',
 			desc : 'Certified Kubernetes Administrator',
-			url : 'https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/b8abd030-f633-4e67-b3fa-83b392337aa8-doohee-hong-certified-kubernetes-administrator-cka-certificate.pdf'
+			url : 'shorturl.at/gpOV8'
 		},
 		{
 			name : 'ELK(Elasticsearch/Logstash/Kibana)',
