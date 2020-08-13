@@ -18,22 +18,28 @@ angular.module('doohee323.github.io')
 
 	$scope.sites = [
 		{
+			name : 'Kubernetes(CKA)',
+			image : 'images/6.png',
+			desc : 'Certified Kubernetes Administrator',
+			url : 'https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/b8abd030-f633-4e67-b3fa-83b392337aa8-doohee-hong-certified-kubernetes-administrator-cka-certificate.pdf'
+		},
+		{
 			name : 'ELK(Elasticsearch/Logstash/Kibana)',
 			image : 'images/6.png',
 			desc : 'Multiple ELK servers on vagrant',
 			url : 'https://github.com/doohee323/tz-elk'
 		},
 		{
-			name : 'Chef',
-			image : 'images/6.png',
-			desc : 'Chef Server - client on vagrant',
-			url : 'https://github.com/doohee323/tz-chef'
-		},
-		{
 			name : 'Docker registry server',
 			image : 'images/6.png',
 			desc : 'Docker registry server in vagrant',
 			url : 'https://github.com/doohee323/docker-registry-vagrant'
+		},
+		{
+			name : 'Chef',
+			image : 'images/6.png',
+			desc : 'Chef Server - client on vagrant',
+			url : 'https://github.com/doohee323/tz-chef'
 		},
 		{
 			name : 'Apache Storm',
