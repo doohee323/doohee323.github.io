@@ -14,7 +14,7 @@ angular.module('doohee323.github.io')
 
 	$scope.mail_title = 'Dewey\'s DevOps!';
 	$scope.mail_title2 = 'Senior Software Engineer';
-	$scope.slogan = 'with java(Spring, Play!), javascript(Angular.js, node.js), Golang, PHP, and python.';
+	$scope.slogan = 'with java(Spring, Play!), javascript(Angular.js, node.js), python and Golang.';
 
 	$scope.sites = [
 		{
