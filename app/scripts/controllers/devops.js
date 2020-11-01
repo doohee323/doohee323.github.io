@@ -24,6 +24,12 @@ angular.module('doohee323.github.io')
 			url : 'https://shorturl.at/gpOV8'
 		},
 		{
+			name : 'tz-rancher',
+			image : 'images/6.png',
+			desc : 'Jenkins on Kubernetes',
+			url : 'https://github.com/doohee323/tz-rancher'
+		},
+		{
 			name : 'ELK(Elasticsearch/Logstash/Kibana)',
 			image : 'images/6.png',
 			desc : 'Multiple ELK servers on vagrant',
