@@ -24,9 +24,9 @@ angular.module('doohee323.github.io')
 			url : 'https://shorturl.at/gpOV8'
 		},
 		{
-			name : 'tz-rancher',
+			name : 'TS-Rancher',
 			image : 'images/6.png',
-			desc : 'Jenkins on Kubernetes',
+			desc : 'Jenkins on Kubernetes with Rancher',
 			url : 'https://github.com/doohee323/tz-rancher'
 		},
 		{
