@@ -21,10 +21,16 @@ angular.module('doohee323.github.io')
 			name : 'Kubernetes(CKA)',
 			image : 'images/6.png',
 			desc : 'Certified Kubernetes Administrator',
-			url : 'https://shorturl.at/gpOV8'
+			url : 'https://bit.ly/3a1fM9B'
 		},
 		{
-			name : 'TS-Rancher',
+			name : 'TZ-k8s-vagrant',
+			image : 'images/6.png',
+			desc : 'Jenkins on AWS from vagrant with Terraform, Packer',
+			url : 'https://github.com/doohee323/tz-k8s-vagrant.git'
+		},
+		{
+			name : 'TZ-Rancher',
 			image : 'images/6.png',
 			desc : 'Jenkins on Kubernetes with Rancher',
 			url : 'https://github.com/doohee323/tz-rancher'
