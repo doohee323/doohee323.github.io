@@ -55,9 +55,9 @@
 					<div class="col-sm-5">
 						<h3>{{site.desc}}</h3>
 					</div>
-					<!--div class="col-sm-5">
-				  	<a ng-click="goLocation(site.sample)"><img src="{{site.image}}"></a><br>
-					</div-->
+					<div class="col-sm-7 text-center" ng-if="site.image != ''">
+				  	    <a href="{{site.url}}"><img style="width: 60%;height: auto;" src="{{site.image}}"></a><br>
+					</div>
 					<div class="col-sm-7">
 						<label class="col-sm-12">
 							<h4>{{site.name}}</h4>

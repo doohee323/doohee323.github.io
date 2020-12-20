@@ -19,43 +19,43 @@ angular.module('doohee323.github.io')
 	$scope.sites = [
 		{
 			name : 'Spring boot',
-			image : 'images/6.png',
+			image : '',
 			desc : 'Basic Spring Boot',
 			url : 'https://github.com/doohee323/tz-spring-boot'
 		},
 		{
 			name : 'Google Script API, spring boot',
-			image : 'images/6.png',
+			image : '',
 			desc : 'Google web',
 			url : 'http://gweb.topzone.biz/'
 		},
 		{
 			name : 'java core',
-			image : 'images/6.png',
+			image : '',
 			desc : 'Multiple commands in ssh / telnet / shell',
 			url : 'https://github.com/doohee323/mcmd'
 		},
 		{
 			name : 'PHP, node.js(socket.io), angular.js',
-			image : 'images/6.png',
+			image : '',
 			desc : 'Chat app (admin)',
 			url : 'http://admin.topzone.biz'
 		},
 		{
 			name : 'Play!, angular.js, Websocket',
-			image : 'images/6.png',
+			image : '',
 			desc : 'Chat room',
 			url : 'http://chatroom.topzone.biz:9000'
 		},
 		{
 			name : 'node.js, angular.js, socket.io, crawler',
-			image : 'images/6.png',
+			image : '',
 			desc : 'CMS (Content Management)',
 			url : 'http://52.0.156.206:3003'
 		},
 		{
 			name : 'Spring',
-			image : 'images/6.png',
+			image : '',
 			desc : 'Common Assets for ERP',
 			url : 'http://goo.gl/O4Bp3o'
 		},
@@ -67,13 +67,13 @@ angular.module('doohee323.github.io')
 		},
 		{
 			name : 'D3 chart',
-			image : 'images/6.png',
+			image : '',
 			desc : 'Multi-line and geographic chart',
 			url : 'http://prototype-chart-d3.s3-website-us-west-1.amazonaws.com'
 		},
 		{
 			name : 'Golang',
-			image : 'images/6.png',
+			image : '',
 			desc : 'Multiple request (HTTP) / shell command',
 			url : 'https://github.com/doohee323/tz_mcall'
 		},
@@ -85,7 +85,7 @@ angular.module('doohee323.github.io')
 		},
 		{
 			name : 'angular.js, mysql, redis, mongoDB',
-			image : 'images/6.png',
+			image : '',
 			desc : 'UI pattern',
 			url : 'https://github.com/doohee323/angularPattern'
 		},

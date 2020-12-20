@@ -10,7 +10,7 @@
 
 var config = {
 	debug : true,
-	updated_dt : '4 / 2 / 2017'
+	updated_dt : '12 / 20 / 2020'
 };
 
 angular.module('doohee323.github.io', [ 'ngCookies', 'ngResource', 'ngRoute', 'ngSanitize', 'ui.router', ]).constant(
