@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "generator-angular": "^0.16.0",
-    "grunt": "^0.4.5",
+    "grunt": "^1.5.2",
     "grunt-autoprefixer": "^2.0.0",
     "grunt-concurrent": "^1.0.0",
     "grunt-contrib-clean": "^0.6.0",
@@ -30,7 +30,7 @@
   },
   "repository": {},
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "^1.5.2",
     "grunt-autoprefixer": "^2.0.0",
     "grunt-concurrent": "^1.0.0",
     "grunt-contrib-clean": "^0.6.0",
