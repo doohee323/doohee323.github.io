@@ -13,8 +13,8 @@ angular.module('doohee323.github.io')
   .controller('DevOpsCtrl', function($scope, $http, $location, $state) {
 
 	$scope.mail_title = 'Dewey\'s DevOps!';
-	$scope.mail_title2 = 'Senior Software Engineer';
-	$scope.slogan = 'with java(Spring, Play!), javascript(Angular.js, node.js), python and Golang.';
+	$scope.mail_title2 = 'Software Engineer';
+	$scope.slogan = 'Using Python, Golang, java and node.js';
 
 	$scope.sites = [
 		{
@@ -30,16 +30,16 @@ angular.module('doohee323.github.io')
 			url : 'https://bit.ly/3a1fM9B'
 		},
 		{
-			name : 'TZ-Rancher',
-			image : '',
-			desc : 'Jenkins on Kubernetes with Rancher',
-			url : 'https://github.com/doohee323/tz-rancher'
-		},
-		{
 			name : 'ELK(Elasticsearch/Logstash/Kibana)',
 			image : '',
 			desc : 'Multiple ELK servers on vagrant',
 			url : 'https://github.com/doohee323/tz-elk'
+		},
+		{
+			name : 'TZ-Rancher',
+			image : '',
+			desc : 'Jenkins on Kubernetes with Rancher',
+			url : 'https://github.com/doohee323/tz-rancher'
 		},
 		{
 			name : 'Docker registry server',
@@ -113,24 +113,24 @@ angular.module('doohee323.github.io')
 			desc : 'Deploy server - agent',
 			url : 'https://github.com/doohee323/tz-deploy'
 		},
-		{
-			name : 'jira/jenkins/mysql/nginx',
-			image : '',
-			desc : 'Basic Development Environment',
-			url : 'https://github.com/doohee323/tz-dev-env'
-		},
-		{
-			name : 'wiki/mysql/nginx',
-			image : '',
-			desc : 'Media wiki on vagrant',
-			url : 'https://github.com/doohee323/wiki-vagrant'
-		},
-		{
-			name : 'Wordpress/mysql/nginx',
-			image : '',
-			desc : 'Wordpress on vagrant',
-			url : 'https://github.com/doohee323/wordpress-vagrant'
-		},
+		// {
+		// 	name : 'jira/jenkins/mysql/nginx',
+		// 	image : '',
+		// 	desc : 'Basic Development Environment',
+		// 	url : 'https://github.com/doohee323/tz-dev-env'
+		// },
+		// {
+		// 	name : 'wiki/mysql/nginx',
+		// 	image : '',
+		// 	desc : 'Media wiki on vagrant',
+		// 	url : 'https://github.com/doohee323/wiki-vagrant'
+		// },
+		// {
+		// 	name : 'Wordpress/mysql/nginx',
+		// 	image : '',
+		// 	desc : 'Wordpress on vagrant',
+		// 	url : 'https://github.com/doohee323/wordpress-vagrant'
+		// },
 		];
 	
 		$state.go('devops');

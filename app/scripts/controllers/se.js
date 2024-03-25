@@ -14,9 +14,15 @@ angular.module('doohee323.github.io')
 
 	$scope.mail_title = 'Dewey\'s applications!';
 	$scope.mail_title2 = 'DevOps';
-	$scope.slogan = 'with java(Spring, Play!), javascript(Angular.js, node.js), Golang, PHP, and python.';
+	$scope.slogan = 'Using Python, Golang, java (Spring, Play!) and javascript (Vue.js, node.js)';
 
 	$scope.sites = [
+		{
+			name : 'Golang / Vue.js',
+			image : '',
+			desc : 'S3 Repo management',
+			url : 'https://github.com/doohee323/tz-s3-repo-mgmt'
+		},
 		{
 			name : 'Spring boot',
 			image : '',
