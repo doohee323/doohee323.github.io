@@ -8597,3 +8597,7 @@ body {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.form-horizontal {
+  max-width: 93%;
+}
