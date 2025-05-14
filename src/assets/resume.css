@@ -1,0 +1,472 @@
+/* You can poke around this CSS if you want to customize your formatting / styling further */
+/* You can even import custom fonts! */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* meta */
+body {
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size:  14px;
+    background-color: white;
+}
+
+/* Remove any background from the print area */
+html, body {
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.spacer {
+    margin: 0px auto;
+}
+
+/* ordering of content */
+h1 {
+    order: 0;
+}
+
+.headerInfo {
+    order: 1;
+}
+
+/* styling content */
+h1, h2, h3, p, a, li {
+    color: black;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+h3 {
+    margin: 6px 0px;
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0;
+}
+
+h3 {
+    display: flex;
+    font-size: 15px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    margin: 4px 0;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* header info content */
+.headerInfo > ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 6px auto 0px !important;
+    padding: 0;
+}
+
+.headerInfo > ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+
+.headerInfo > ul >li:not(:last-child) {
+    margin-right: 8px;
+}
+
+.headerInfo > ul > li:not(:last-child):after {
+    content: "•";
+    margin-left: 8px;
+}
+
+/* Resume styling for a clean, professional look */
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.5;
+  color: #000;
+}
+
+.resume-content {
+  margin: 0 auto;
+}
+
+/* Name heading */
+.resume-content h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* Contact info line */
+.section.headerInfo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section.headerInfo ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.section.headerInfo li {
+  margin: 0 8px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.section.headerInfo li:not(:last-child)::after {
+  content: "•";
+  margin-left: 16px;
+}
+
+/* Section headings */
+.resume-content h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Job/education titles */
+.resume-content h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Company locations (h4) */
+.resume-content h4 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* Lists */
+.resume-content ul {
+  margin: 5px 0 12px 0;
+  padding-left: 20px;
+}
+
+.resume-content ul li {
+  margin-bottom: 4px;
+}
+
+/* Links */
+.resume-content a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Spacer for right-aligned dates */
+.spacer {
+  flex-grow: 1;
+}
+
+/* Technologies line */
+.resume-content p:has(+ h3), .resume-content p:has(+ h2) {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Skills section styling */
+.resume-content h3 + ul {
+  margin-top: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .resume-content h3 {
+    flex-direction: column;
+  }
+  
+  .spacer {
+    display: none;
+  }
+}
+
+/* Print styles for A4 PDF */
+@media print {
+  html, body {
+    background: white !important;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .resume-container {
+    width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    box-shadow: none;
+    background: white;
+    overflow: hidden;
+    page-break-after: always;
+    position: relative;
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  .resume-content {
+    padding: 0;
+    font-size: 11pt;
+    margin: 0 auto;
+  }
+
+  .print-button {
+    display: none !important;
+  }
+
+  /* Font size adjustments for print */
+  .resume-content h1 {
+    font-size: 18pt;
+  }
+
+  .resume-content h2 {
+    font-size: 14pt;
+  }
+
+  .resume-content h3 {
+    font-size: 12pt;
+  }
+
+  .resume-content h4 {
+    font-size: 11pt;
+    font-weight: 400;
+    color: #444;
+  }
+
+  .resume-content p, .resume-content li {
+    font-size: 10pt;
+    line-height: 1.3;
+  }
+
+  /* Less spacing for print */
+  .resume-content h2 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+
+  .resume-content h3 {
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+
+  .resume-content ul {
+    margin: 4px 0 8px 0;
+  }
+
+  .resume-content ul li {
+    margin-bottom: 3px;
+  }
+
+  /* Hide elements irrelevant for print */
+  nav, footer, .navbar, .footer {
+    display: none !important;
+  }
+
+  /* 페이지 전체 스타일 재설정 */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  /* Add spacing before education section when printing */
+  .resume-content h2:has(+ h3:contains("Bachelor")) {
+    margin-top: 150px !important;
+  }
+
+  /* 문서 컨테이너 스타일 */
+  .resume-document {
+    width: 210mm;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none;
+    background: white;
+  }
+
+  /* 첫 번째 페이지 설정 */
+  .a4-preview {
+    width: 210mm;
+    height: auto;
+    margin: 0 !important;
+    padding: 15mm 15mm 0 15mm !important;
+    box-sizing: border-box;
+    box-shadow: none;
+    background: white;
+    position: relative;
+    border-radius: 0;
+  }
+  
+  /* Target the EDUCATION section directly */
+  .resume-content h2:nth-of-type(3) {
+    page-break-before: always;
+    margin-top: 0 !important;
+    padding-top: 20mm !important;
+  }
+
+  /* 불필요한 요소 숨김 */
+  nav, footer, .navbar, .footer, .print-button, .button-container {
+    display: none !important;
+  }
+
+  /* Remove any background color or shading */
+  .resume-document {
+    background: white !important;
+    box-shadow: none !important;
+  }
+
+  .a4-preview {
+    background: white !important;
+    box-shadow: none !important;
+  }
+
+  /* Make sure content takes full page without gray margins */
+  .resume-content {
+    background: white !important;
+    min-height: 100%;
+    width: 100%;
+  }
+
+  /* Remove any default browser margins */
+  @page {
+    size: A4;
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+}
+
+/* 전체 이력서 문서 컨테이너 */
+.resume-document {
+  max-width: 210mm;
+  margin: 20px auto;
+  border-radius: 0;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* A4 미리보기 컨테이너 스타일 수정 */
+.a4-preview {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm 15mm;
+  margin: 0;
+  background: white;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 0;
+}
+
+/* 이력서 컨테이너 스타일 */
+.resume-content {
+  position: relative;
+  background: white;
+}
+
+/* 이력서 내용이 분리되지 않도록 설정 */
+.resume-content > * {
+  background: white;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* 이력서 섹션 스타일 */
+.resume-content h2 {
+  border-bottom: 1px solid #000000;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background: white;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* 이력서 제목 스타일 */
+.resume-content h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+/* Print button styling */
+.print-button {
+  background-color: #212529;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.print-button:hover {
+  background-color: #005fb8;
+  border-color: #005fb8;
+}
+
+/* Center items in the container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
