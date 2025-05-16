@@ -124,11 +124,6 @@ const environments = [
     description: "Jenkins & ArgoCD Pipeline" 
   },
   { 
-    title: "GitOps Environment", 
-    image: "/images/gitops.png", 
-    description: "ArgoCD & Flux CD" 
-  },
-  { 
     title: "Monitoring Environment", 
     image: "/images/prometheus-grafana.png", 
     description: "Prometheus & Grafana" 

@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b74530-d6e3-4984-90e6-34faed522edd" name="Changes" comment="add k8s">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DevOpsCareer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DevOpsCareer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SWECareer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SWECareer.js" afterDir="false" />
-    </list>
+    <list default="true" id="21b74530-d6e3-4984-90e6-34faed522edd" name="Changes" comment="Skill Sets" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +18,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "doohee323"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/doohee323/doohee323.github.io.git",
+    "accountId": "0ea6de98-92d3-47e2-8218-ab44935af4a2"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -98,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711408920806</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Skill Sets">
+      <option name="closed" value="true" />
+      <created>1747358198028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747358198028</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="add k8s" />
-    <option name="LAST_COMMIT_MESSAGE" value="add k8s" />
+    <MESSAGE value="Skill Sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skill Sets" />
   </component>
 </project>
