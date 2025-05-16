@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21b74530-d6e3-4984-90e6-34faed522edd" name="Changes" comment="add k8s" />
+    <list default="true" id="21b74530-d6e3-4984-90e6-34faed522edd" name="Changes" comment="add k8s">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/DevOpsCareer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DevOpsCareer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SWECareer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SWECareer.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Volumes/workspace/etc/doohee323.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

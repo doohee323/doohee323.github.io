@@ -107,10 +107,13 @@ const projects = [
 // 기술 스택 데이터
 const skillSets = [
   { category: "Language", skills: "Python, Golang, Java, Node.js, Shell" },
-  { category: "OS/VMs/Platform", skills: "AWS, Kubernetes(EKS), Docker, Linux, Unix, Vagrant" },
-  { category: "Framework", skills: "Spring (Boot, MVC, Security, Data), Pyramid, GoGin, Jetty, Play!" },
-  { category: "CI", skills: "Jenkins, Shells, Helm Chart, Maven/Gradle, gulp/webpack, linux" },
-  { category: "Big data", skills: "Elasticsearch, Graphite, Apache Storm, Esper, Kafka, Zookeeper" }
+  { category: "OS/VMs/Platform", skills: "AWS, GCP, Kubernetes(EKS), Docker, Linux, Vagrant" },
+  { category: "CI/CD", skills: "Jenkins, GitHub Actions, ArgoCD, Helm Chart, Maven/Gradle" },
+  { category: "IaC & Config", skills: "Terraform, Ansible, Chef, Vagrant" },
+  { category: "Observability", skills: "Prometheus, Grafana, Elasticsearch, Kibana, Jaeger, Datadog" },
+  { category: "Service Mesh & Networking", skills: "Istio, HAProxy" },
+  { category: "Cloud Native", skills: "Serverless (AWS Lambda), Kafka, Zookeeper, Kafka Streams" },
+  { category: "Security", skills: "Vault" }
 ];
 
 // 환경 데이터
@@ -119,6 +122,11 @@ const environments = [
     title: "CI Environment", 
     image: "/images/jenkins-argocd.png", 
     description: "Jenkins & ArgoCD Pipeline" 
+  },
+  { 
+    title: "GitOps Environment", 
+    image: "/images/gitops.png", 
+    description: "ArgoCD & Flux CD" 
   },
   { 
     title: "Monitoring Environment", 
@@ -150,7 +158,7 @@ function DevOpsCareer() {
         <Col>
           <Card className="shadow-sm">
             <Card.Body>
-              <h3 className="mb-4">DevOps Skill sets</h3>
+              <h2 className="mb-4">DevOps Skill sets</h2>
               <Row>
                 <Col md={12}>
                   <ul className="list-unstyled">

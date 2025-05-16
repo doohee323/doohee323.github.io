@@ -126,12 +126,15 @@ const projects = [
 
 // 기술 스택 데이터
 const skillSets = [
-  { category: "Language", skills: "Java, Javascript, Node.js, Golang, Python, PHP, PL-SQL, Unix Shell" },
-  { category: "Framework", skills: "Spring (Boot, MVC, Security, Data), Play!, Jetty, Angular.js, Express, D3.js" },
-  { category: "APIs", skills: "RESTFUL, Web service, JSON, XML, Hibernate, iBatis, Social APIs, SAP JCO, OAuth, JWT" }
+  { category: "Language", skills: "JavaScript/TypeScript, Python, Java, Golang, PHP" },
+  { category: "Framework", skills: "Spring (Boot, MVC, Security, Data), Pyramid, GoGin, Jetty, Play!" },
+  { category: "Frontend", skills: "Vue.js, Angular" },
+  { category: "Database", skills: "Mysql, Redis, Elasticsearch, DynamoDB, MongoDB" },
+  { category: "APIs & Auth", skills: "REST, WebSockets, OAuth 2.0, JWT" }
 ];
 
-// 주요 경력 데이터
+// 주요 경력 데이터 - 현재 사용되지 않음
+/* 
 const careerExperience = [
   {
     role: "Senior Software Engineer",
@@ -170,6 +173,7 @@ const careerExperience = [
     ]
   }
 ];
+*/
 
 function SWECareer() {
   return (
@@ -189,7 +193,7 @@ function SWECareer() {
         <Col>
           <Card className="shadow-sm">
             <Card.Body>
-              <h3 className="mb-4">SE Skill Sets</h3>
+              <h2 className="mb-4">SE Skill Sets</h2>
               <Row>
                 <Col md={12}>
                   <ul className="list-unstyled">
