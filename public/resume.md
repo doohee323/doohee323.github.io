@@ -13,13 +13,14 @@
 ## PROFESSIONAL EXPERIENCE
 
 ### Principal Software Engineer, Fortinet &emsp;&emsp;&emsp;&emsp;&emsp; June 2015 — Present
-#### FortiSwitch | Sunnyvale, CA
+#### Sunnyvale, CA
+### Network Switch (Fortiswitch)
 - Led the development of admin tools for FortiSwitch, leveraging Cython, Python, Vue.js, and jQuery
 - Automated firmware image builds in Chroot and Vagrant environments integrated with Jenkins
 - Developed a web-based terminal for network switch access
 - Established Kubernetes environments for CI, resolving deployment and runtime issues
 
-### Staff Software Engineer | Vulnerability Scanning
+### Vulnerability Scanning Tool
 - Developed a vulnerability monitoring tool using Golang and Python
 - Migrated applications from EC2 to EKS, provisioning AWS resources with Terraform
 - Built streaming pipelines using Apache Storm, ZMQ, Kafka, and Graphite
@@ -29,7 +30,7 @@
 - Managed multiple EKS clusters, overseeing provisioning, upgrades, and disaster recovery
 - Integrated security systems using Vault and implemented service mesh solutions (Istio, Jaeger, Kiali)
 
-### Senior Software Engineer | FortiDirector
+### GSLB (Global Server LoadBalancer - FortiDirector)
 - Designed and integrated systems with Graphite, MySQL, Redis, and Elasticsearch
 - Created real-time statistical charts for network usage with D3.js, Google Maps, and AmCharts
 - Developed admin tools for public and private cloud environments using PHP and JHipster
