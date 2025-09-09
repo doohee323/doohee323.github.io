@@ -4,6 +4,13 @@ import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
 // 프로젝트 데이터 배열
 const projects = [
   {
+    title: "DrillQuiz - Quiz Learning Platform",
+    description: "Built with complete vibe coding using Cursor.ai with ChatGPT.",
+    tech: "Python, Vue.js, Golang, OpenAPI, GitOps, ArgoCD, Kubernetes",
+    link: "https://us.drillquiz.com/",
+    tags: ["Vibe Coding", "Python", "Vue.js", "Golang", "OpenAPI", "GitOps", "ArgoCD", "Kubernetes"]
+  },
+  {
     title: "S3 Repo Management",
     description: "S3 repository management application with modern web interface and cloud storage integration.",
     tech: "Golang / Vue.js",
@@ -128,9 +135,11 @@ const projects = [
 const skillSets = [
   { category: "Language", skills: "JavaScript/TypeScript, Python, Java, Golang, PHP" },
   { category: "Framework", skills: "Spring (Boot, MVC, Security, Data), Pyramid, GoGin, Jetty, Play!" },
-  { category: "Frontend", skills: "Vue.js, Angular" },
+  { category: "Frontend", skills: "React, Vue.js, Angular" },
   { category: "Database", skills: "Mysql, Redis, Elasticsearch, DynamoDB, MongoDB" },
-  { category: "APIs & Auth", skills: "REST, WebSockets, OAuth 2.0, JWT" }
+  { category: "APIs & Integration", skills: "REST, WebSockets, OAuth 2.0, JWT, OpenAPI" },
+  { category: "DevOps & Cloud", skills: "GitOps, ArgoCD, Kubernetes, Docker, CI/CD" },
+  { category: "AI-Assisted Development", skills: "Cursor.ai, ChatGPT, Vibe Coding, AI Code Generation" }
 ];
 
 // 주요 경력 데이터 - 현재 사용되지 않음
@@ -180,10 +189,10 @@ function SWECareer() {
     <Container className="my-5">
       <Row className="mb-5">
         <Col>
-          <h1 className="display-4 mb-4" style={{ textTransform: 'none' }}>Dewey's Applications!</h1>
+          <h1 className="display-4 mb-4" style={{ textTransform: 'none' }}>Software Engineering</h1>
           <p className="lead">
             A detailed overview of my software engineering career, highlighting key projects and accomplishments.
-            Using Python, Golang, Java (Spring, Play!) and JavaScript (Vue.js, Node.js).
+            Specializing in modern web development and full-stack applications including vibe coding techniques for enhanced user experience.
           </p>
         </Col>
       </Row>

@@ -4,6 +4,13 @@ import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
 // 프로젝트 데이터 배열
 const projects = [
   {
+    title: "Kubernetes CRD Controller (tz-mcall-crd)",
+    description: "Developed a custom Kubernetes operator with CRDs for task automation. Built McallTask and McallWorkflow CRDs with controller logic for executing commands, HTTP requests, and complex workflows with dependencies and scheduling.",
+    image: "/images/crd.png",
+    github: "https://github.com/doohee323/tz-mcall-crd",
+    tags: ["Kubernetes", "CRD", "Operator", "Go", "Controller", "Helm"]
+  },
+  {
     title: "Jenkins on AWS with Terraform & Packer",
     description: "Built CI/CD environment on AWS using Infrastructure as Code with Terraform and Packer. Automated deployment of Jenkins clusters for scalable build processes.",
     image: "/images/tz-k8s-vagrant-env.png",
@@ -106,14 +113,15 @@ const projects = [
 
 // 기술 스택 데이터
 const skillSets = [
-  { category: "Language", skills: "Python, Golang, Java, Node.js, Shell" },
-  { category: "OS/VMs/Platform", skills: "AWS, GCP, Kubernetes(EKS), Docker, Linux, Vagrant" },
-  { category: "CI/CD", skills: "Jenkins, GitHub Actions, ArgoCD, Helm Chart, Maven/Gradle" },
-  { category: "IaC & Config", skills: "Terraform, Ansible, Chef, Vagrant" },
-  { category: "Observability", skills: "Prometheus, Grafana, Elasticsearch, Kibana, Jaeger, Datadog" },
+  { category: "Programming Languages", skills: "Python, Golang, Java, Node.js, Shell" },
+  { category: "Cloud Platforms", skills: "AWS, GCP, Kubernetes(EKS), Docker, Linux, Vagrant" },
+  { category: "CI/CD & GitOps", skills: "Jenkins, GitHub Actions, ArgoCD, Helm Chart, Maven/Gradle" },
+  { category: "Infrastructure as Code", skills: "Terraform, Ansible, Chef, Vagrant" },
+  { category: "Kubernetes Ecosystem", skills: "K8S CRD, Helm, Operator Pattern, Controller Development" },
+  { category: "Observability & Monitoring", skills: "Prometheus, Grafana, Elasticsearch, Kibana, Jaeger, Datadog" },
   { category: "Service Mesh & Networking", skills: "Istio, HAProxy" },
-  { category: "Cloud Native", skills: "Serverless (AWS Lambda), Kafka, Zookeeper, Kafka Streams" },
-  { category: "Security", skills: "Vault" }
+  { category: "Cloud Native Technologies", skills: "Serverless (AWS Lambda), Kafka, Zookeeper, Kafka Streams" },
+  { category: "Security & Secrets Management", skills: "Vault" }
 ];
 
 // 환경 데이터
@@ -140,10 +148,10 @@ function DevOpsCareer() {
     <Container className="my-5">
       <Row className="mb-5">
         <Col>
-          <h1 className="display-4 mb-4" style={{ textTransform: 'none' }}>Dewey's DevOps</h1>
+          <h1 className="display-4 mb-4" style={{ textTransform: 'none' }}>Platform Engineering</h1>
           <p className="lead">
-            My journey in DevOps engineering, focusing on infrastructure automation, 
-            CI/CD pipeline optimization, and cloud architecture.
+            My journey in platform engineering, focusing on developer experience optimization, 
+            infrastructure automation, and cloud-native architecture.
           </p>
         </Col>
       </Row>
@@ -153,7 +161,7 @@ function DevOpsCareer() {
         <Col>
           <Card className="shadow-sm">
             <Card.Body>
-              <h2 className="mb-4">DevOps Skill sets</h2>
+              <h2 className="mb-4">Platform Engineering Skills</h2>
               <Row>
                 <Col md={12}>
                   <ul className="list-unstyled">
@@ -175,7 +183,7 @@ function DevOpsCareer() {
         <Col>
           <Card className="shadow-sm">
             <Card.Body>
-              <h3 className="mb-4">DevOps Environments</h3>
+              <h3 className="mb-4">Platform Environments</h3>
               <Row>
                 {environments.map((env, index) => (
                   <Col md={4} className="mb-4" key={index}>
@@ -202,7 +210,7 @@ function DevOpsCareer() {
         <Col>
           <Card className="shadow-sm">
             <Card.Body>
-              <h3 className="mb-4">Notable DevOps Projects</h3>
+              <h3 className="mb-4">Platform Engineering Projects</h3>
               <Row>
                 {projects.map((project, index) => (
                   <Col md={6} className="mb-4" key={index}>

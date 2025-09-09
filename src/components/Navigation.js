@@ -17,7 +17,7 @@ function Navigation() {
               to="/devops" 
               active={location.pathname === "/devops"}
             >
-              DevOps
+              PE
             </Nav.Link>
             <Nav.Link 
               as={Link} 
