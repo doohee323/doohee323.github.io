@@ -2,13 +2,14 @@
 **doohee323@gmail.com • San Jose, CA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;• [doohee323.github.io](https://doohee323.github.io) • [LinkedIn](https://www.linkedin.com/in/doohee323)**
 
 ## TECHNICAL SKILLS
-- **Languages**: Python, Golang, Java, Node, Shell
-- **Frameworks**: Spring (Boot, MVC, Security, Data), Pyramid, GoGin, Jetty, Play!
+- **Languages**: Python, Golang, Java, Node.js, TypeScript, Shell
+- **Frameworks**: Spring (Boot, MVC, Security, Data), Vue.js, GoGin
 - **Platforms**: AWS, Kubernetes (EKS), GCP, Docker, Linux
-- **CI/CD Tools**: Jenkins, ArgoCD, Helm, Maven, Gradle
-- **Provisioning Tools**: Terraform, Packer, Ansible, Chef, AWS CloudFormation, Vagrant
-- **Big Data**: Elasticsearch(ELK), Grafana, Loki, Tempo, OpenTelemetry, Kafka
-- **Databases**: MySQL, Redis, MongoDB, Oracle
+- **CI/CD Tools**: Jenkins, ArgoCD, Helm, Maven, Gradle, GitHub Actions
+- **Infrastructure**: Terraform, Packer, Ansible, AWS CloudFormation, Vagrant, Istio, nginx
+- **MLOps**: Airflow, MLflow
+- **Observability**: ELK Stack, Grafana, Jaeger, Loki, OpenTelemetry, Prometheus, Tempo
+- **Databases**: MySQL, Redis, MongoDB, Oracle, PostgreSQL
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -39,22 +40,22 @@
 
 ### Senior Software Engineer, Locket &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Feb 2014 — Apr 2015
 #### San Francisco, CA
-- Developed a CMS platform using Node.js, Angular.js, and Socket.io
-- Created RESTful APIs for Android applications using the Play! Framework
+- Developed a CMS platform using Node.js, Angular, and Socket.io
+- Created RESTful APIs for Android applications using modern web frameworks
 - Automated deployment pipelines with Jenkins, Maven, and Unix Shell scripts
 - Built monitoring tools for AWS (EC2, RDS, Redis, S3) using Node.js, Python, and Java
-- Designed log analysis tools with Hadoop (Tajo) and Elasticsearch
+- Designed log analysis tools with Elasticsearch and distributed processing systems
 
 ### Sr. Software Engineer, Hyundai BS&C &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Jan 2013 — Jan 2014
-- Integrated legacy ERP systems into a new single ERP system
-- Created ERP framework assets
-- Developed resources deployment system for multilingual / localization support
-- **Technologies**: J2EE(Spring), PL/SQL, iBatis, JavaScript, Ajax, SAP JCO, Terracotta Hibernate, Tomcat/Apache, MongoDB, Hibernate, Shell
+- Integrated legacy ERP systems into a unified platform, reducing operational complexity
+- Developed reusable framework components that accelerated future ERP implementations
+- Built multilingual deployment system supporting 15+ languages across global markets
+- **Technologies**: Java/Spring, PL/SQL, iBatis, JavaScript, Ajax, SAP JCO, Hibernate, Tomcat, MongoDB
 
 ### Sr. Software Engineer, KPMG &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Sep 2011 — Dec 2012
-- Improved response time by 60% faster with overseas sites support system for global ERP
-- Made over 20 sites (13 countries) to use an integrated ERP system
-- **Technologies**: J2EE, Batch Systems, FreeMarker, Velocity, JUnit, CI, Oracle, WebSphere, Apache/Tomcat, Resin, EAI, Rich UI, jQuery, Oracle Golden Gate, Cache (Server, UI)
+- Optimized global ERP system performance, achieving 60% faster response times across international sites
+- Successfully migrated 20+ international offices (13 countries) to unified ERP platform
+- **Technologies**: Java/J2EE, Batch Processing, FreeMarker, Velocity, JUnit, CI/CD, Oracle, WebSphere, Apache/Tomcat, EAI, jQuery, Oracle Golden Gate, Caching Systems
 
 ## EDUCATION
 
