@@ -125,14 +125,14 @@ ul {
   text-align: center;
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   text-transform: uppercase;
 }
 
 /* Contact info line */
 .section.headerInfo {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .section.headerInfo ul {
@@ -161,9 +161,14 @@ ul {
   font-size: 18px;
   font-weight: 700;
   border-bottom: 1px solid #000;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: 10px;
   padding-bottom: 5px;
+}
+
+/* First section (PROFESSIONAL EXPERIENCE) extra spacing */
+.resume-content h2:first-of-type {
+  margin-top: 40px;
 }
 
 /* Job/education titles */
@@ -172,7 +177,7 @@ ul {
   justify-content: space-between;
   font-size: 16px;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 5px;
 }
 
@@ -270,6 +275,7 @@ ul {
   /* Font size adjustments for print */
   .resume-content h1 {
     font-size: 18pt;
+    margin-bottom: 10pt;
   }
 
   .resume-content h2 {
@@ -293,7 +299,7 @@ ul {
 
   /* Less spacing for print */
   .resume-content h2 {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 8px;
   }
 
@@ -321,9 +327,11 @@ ul {
     margin: 0;
   }
 
-  /* Add spacing before education section when printing */
-  .resume-content h2:has(+ h3:contains("Bachelor")) {
-    margin-top: 150px !important;
+  /* Page break before Hyundai BS&C section */
+  .resume-content h3:nth-of-type(3) {
+    page-break-before: always;
+    margin-top: 0 !important;
+    padding-top: 20mm !important;
   }
 
   /* 문서 컨테이너 스타일 */
@@ -346,13 +354,6 @@ ul {
     background: white;
     position: relative;
     border-radius: 0;
-  }
-  
-  /* Target the EDUCATION section directly */
-  .resume-content h2:nth-of-type(3) {
-    page-break-before: always;
-    margin-top: 0 !important;
-    padding-top: 20mm !important;
   }
 
   /* 불필요한 요소 숨김 */
