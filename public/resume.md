@@ -14,13 +14,13 @@
 
 ### Principal Software Engineer, Fortinet &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; June 2015 — Present
 #### Sunnyvale, CA
-### Network Switch (Fortiswitch)
+### ◆ Network Switch (Fortiswitch)
 - Led the development of admin tools for FortiSwitch, leveraging Cython, Python, Vue.js
 - Automated firmware image builds in Chroot and Vagrant environments integrated with Jenkins
 - Developed a web-based terminal for network switch access
 - Established Kubernetes environments for CI, resolving deployment and runtime issues
 
-### Vulnerability Scanning Tool
+### ◆ Vulnerability Scanning Tool
 - Developed a vulnerability monitoring tool using Golang and Python
 - Migrated applications from EC2 to EKS, provisioning AWS resources with Terraform
 - Built streaming pipelines using Apache Storm, ZMQ, Kafka, and Graphite
@@ -30,10 +30,10 @@
 - Managed multiple EKS clusters, overseeing provisioning, upgrades, and disaster recovery
 - Integrated security systems using Vault and implemented service mesh solutions (Istio, Jaeger, Kiali)
 
-### GSLB (Global Server LoadBalancer - FortiDirector)
+### ◆ GSLB (Global Server LoadBalancer - FortiDirector)
 - Designed and integrated systems with Graphite, MySQL, Redis, and Elasticsearch
-- Created real-time statistical charts for network usage with D3.js, Google Maps, and AmCharts
-- Developed admin tools for public and private cloud environments using PHP and JHipster
+- Created real-time statistical charts for network usage
+- Developed admin tools for public and private cloud environments
 - Built backend systems using Spring Boot (MVC, Security, Data, OAuth2) with AWS RDS, Redis, and MongoDB
 
 ### Senior Software Engineer, Locket &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Feb 2014 — Apr 2015
@@ -43,6 +43,18 @@
 - Automated deployment pipelines with Jenkins, Maven, and Unix Shell scripts
 - Built monitoring tools for AWS (EC2, RDS, Redis, S3) using Node.js, Python, and Java
 - Designed log analysis tools with Hadoop (Tajo) and Elasticsearch
+
+### Sr. Software Engineer, Hyundai BS&C &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Jan 2013 — Jan 2014
+**Client Project: Lotte Hotel global finance / HR system development**
+- Integrated legacy ERP systems into a new single ERP system
+- Created ERP framework assets
+- Developed resources deployment system for multilingual / localization support
+- **Technologies**: J2EE(Spring), PL/SQL, iBatis, JavaScript, Ajax, SAP JCO, Terracotta Hibernate, Tomcat/Apache, MongoDB, Hibernate, Shell
+
+### Sr. Software Engineer, KPMG &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Sep 2011 — Dec 2012
+- Improved response time by 60% faster with overseas sites support system for global ERP
+- Made over 20 sites (13 countries) to use an integrated ERP system
+- **Technologies**: J2EE, Batch Systems, FreeMarker, Velocity, JUnit, CI, Oracle, WebSphere, Apache/Tomcat, Resin, EAI, Rich UI, jQuery, Oracle Golden Gate, Cache (Server, UI)
 
 ## EDUCATION
 

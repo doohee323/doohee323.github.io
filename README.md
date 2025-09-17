@@ -21,6 +21,34 @@ npm start
 ```
 You can now view the site at `http://localhost:3000`.
 
+## Development Environment Setup
+
+### VS Code Debug Configuration
+This project includes VS Code configuration files for debugging:
+
+1. **Launch Configuration** (`.vscode/launch.json`):
+   - `Launch Chrome`: Starts Chrome with debugging enabled
+   - `Attach to Chrome`: Attaches to an existing Chrome instance
+   - `Launch Edge`: Starts Edge with debugging enabled
+
+2. **Tasks Configuration** (`.vscode/tasks.json`):
+   - `npm: start`: Runs the development server
+   - `npm: build`: Builds the production version
+   - `npm: test`: Runs tests
+   - `npm: install`: Installs dependencies
+
+### How to Debug
+1. Open the project in VS Code
+2. Press `F5` or go to Run and Debug panel
+3. Select "Launch Chrome" configuration
+4. The app will open in Chrome with debugging capabilities
+
+### Available Scripts
+- `npm start`: Runs the app in development mode
+- `npm run build`: Builds the app for production
+- `npm test`: Launches the test runner
+- `npm run deploy`: Builds and deploys to GitHub Pages
+
 ## Modification and Deployment Process
 
 ### 1. Edit Files
