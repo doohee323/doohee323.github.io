@@ -12,15 +12,16 @@
 
 ## PROFESSIONAL EXPERIENCE
 
-### Principal Software Engineer, Fortinet &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; June 2015 — Present
+### Principal Software Engineer, Fortinet &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Jun 2015 — Present
 #### Sunnyvale, CA
-### ◆ Network Switch (Fortiswitch)
+
+#### ◆ Network Switch (Fortiswitch)
 - Led the development of admin tools for FortiSwitch, leveraging Cython, Python, Vue.js
 - Automated firmware image builds in Chroot and Vagrant environments integrated with Jenkins
 - Developed a web-based terminal for network switch access
 - Established Kubernetes environments for CI, resolving deployment and runtime issues
 
-### ◆ Vulnerability Scanning Tool
+#### ◆ Vulnerability Scanning Tool
 - Developed a vulnerability monitoring tool using Golang and Python
 - Migrated applications from EC2 to EKS, provisioning AWS resources with Terraform
 - Built streaming pipelines using Apache Storm, ZMQ, Kafka, and Graphite
@@ -30,7 +31,7 @@
 - Managed multiple EKS clusters, overseeing provisioning, upgrades, and disaster recovery
 - Integrated security systems using Vault and implemented service mesh solutions (Istio, Jaeger, Kiali)
 
-### ◆ GSLB (Global Server LoadBalancer - FortiDirector)
+#### ◆ GSLB (Global Server LoadBalancer - FortiDirector)
 - Designed and integrated systems with Graphite, MySQL, Redis, and Elasticsearch
 - Created real-time statistical charts for network usage
 - Developed admin tools for public and private cloud environments
@@ -45,7 +46,6 @@
 - Designed log analysis tools with Hadoop (Tajo) and Elasticsearch
 
 ### Sr. Software Engineer, Hyundai BS&C &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Jan 2013 — Jan 2014
-**Client Project: Lotte Hotel global finance / HR system development**
 - Integrated legacy ERP systems into a new single ERP system
 - Created ERP framework assets
 - Developed resources deployment system for multilingual / localization support
