@@ -4,10 +4,10 @@ import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
 // 프로젝트 데이터 배열
 const projects = [
   {
-    title: "Kubernetes CRD Controller (tz-mcall-crd)",
+    title: "Kubernetes Operator (tz-mcall-operator)",
     description: "Developed a custom Kubernetes operator with CRDs for task automation. Built McallTask and McallWorkflow CRDs with controller logic for executing commands, HTTP requests, and complex workflows with dependencies and scheduling.",
     image: "/images/crd.png",
-    github: "https://github.com/doohee323/tz-mcall-crd",
+    github: "https://github.com/doohee323/tz-mcall-operator",
     tags: ["Kubernetes", "CRD", "Operator", "Go", "Controller", "Helm"]
   },
   {
