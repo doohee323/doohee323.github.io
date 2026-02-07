@@ -4,6 +4,13 @@ import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
 // 프로젝트 데이터 배열
 const projects = [
   {
+    title: "RAG & Dify Chatbot (tz-chatbot)",
+    description: "Sets up a RAG (Retrieval-Augmented Generation) and Dify chatbot demo environment on Kubernetes. Installs, in order: Ingress NGINX, MinIO, Qdrant, topic-specific RAG backends (CoinTutor / DrillQuiz), Dify, and TZ-Chat services.",
+    image: "/images/tz-chatbot.png",
+    github: "https://github.com/doohee323/tz-chatbot",
+    tags: ["Kubernetes", "RAG", "Dify", "MinIO", "Qdrant", "Helm"]
+  },
+  {
     title: "Kubernetes Operator (tz-mcall-operator)",
     description: "Developed a custom Kubernetes operator with CRDs for task automation. Built McallTask and McallWorkflow CRDs with controller logic for executing commands, HTTP requests, and complex workflows with dependencies and scheduling.",
     image: "/images/crd.png",
